@@ -1,0 +1,30 @@
+﻿@using DominioServicio.Entidades
+
+@model List<DominioServicio.Entidades.Empleado>
+
+@{
+    ViewBag.Title = "Listar";
+}
+
+<h2>Listar</h2>
+<br />
+<a href="/Empleado/Crear">Crear Nuevo Empleado</a>
+
+<hr />
+
+<table>
+    <tr>
+        <td>Id</td>
+        <td>Nombre</td>
+        <td>Apellido</td>
+    </tr>
+
+    @foreach (Empleado em in Model)
+    { 
+        <tr>
+            <td>@em.Id</td>
+            <td>@em.Nombre</td>
+            <td>@em.Apellido</td>
+        </tr>
+    }
+</table>

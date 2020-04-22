@@ -1,0 +1,28 @@
+﻿@model DominioServicio.Entidades.Empleado
+
+@{
+    ViewBag.Title = "Buscar";
+
+    string NombreApellido = $"{Model.Nombre}, {Model.Apellido}";
+}
+<h2>Buscar</h2>
+
+<h3> Bienvenido Empleado: @NombreApellido  </h3>
+
+<div>
+    Nombre:
+</div>
+
+<div>
+    @Model.Nombre
+</div>
+
+<div>
+    Apellido
+</div>
+<div>
+    @Model.Apellido
+</div>
+
+
+

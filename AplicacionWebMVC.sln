@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWebIntroMVC", "AppWebIntroMVC\AppWebIntroMVC.csproj", "{EAECAC5E-049F-46B6-9D4E-E4B66EB22D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominioServicio", "DominioServicio\DominioServicio.csproj", "{F9B42D9F-3336-4315-8729-15D81F75D86F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAECAC5E-049F-46B6-9D4E-E4B66EB22D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAECAC5E-049F-46B6-9D4E-E4B66EB22D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAECAC5E-049F-46B6-9D4E-E4B66EB22D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAECAC5E-049F-46B6-9D4E-E4B66EB22D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B42D9F-3336-4315-8729-15D81F75D86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B42D9F-3336-4315-8729-15D81F75D86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B42D9F-3336-4315-8729-15D81F75D86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B42D9F-3336-4315-8729-15D81F75D86F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9BFF2E6-2CD8-4917-B1A5-CF5FEC4F9286}
+	EndGlobalSection
+EndGlobal
